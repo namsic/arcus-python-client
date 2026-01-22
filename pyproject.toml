@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arcus-python-client"
+version = "0.1.0"
+description = "Arcus Python Client"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+py-modules = [
+    "arcus_util",
+    "arcus_cmd",
+    "arcus_mc_node",
+    "arcus",
+    "arcus_zk_cmd",
+    "zk_sync",
+    "zk_util"
+]
